@@ -1,0 +1,14 @@
+2026-04-22 20:13:00,632 - INFO - Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001'}
+2026-04-22 20:13:01,990 - INFO - Order response: {}
+2026-04-22 20:13:55,514 - INFO - Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001'}
+2026-04-22 20:13:56,454 - INFO - Order response: {}
+2026-04-22 20:18:30,452 - INFO - Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001'}
+2026-04-22 20:18:31,460 - INFO - Order response: {}
+2026-04-22 20:19:28,354 - INFO - Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001'}
+2026-04-22 20:19:28,859 - INFO - Order response: {'orderId': 13061769834, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJaf4c0eceed323fdf453d85', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1776869368749}
+2026-04-22 20:19:57,065 - INFO - Placing order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '60000', 'timeInForce': 'GTC'}
+2026-04-22 20:19:57,805 - ERROR - Error placing order: APIError(code=-4024): Limit price can't be lower than 74915.58.
+2026-04-22 20:20:43,958 - INFO - Placing order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '78000', 'timeInForce': 'GTC'}
+2026-04-22 20:20:44,554 - INFO - Order response: {'orderId': 13061772965, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJeebf74b2523ac1580f1f28', 'price': '78000.00', 'avgPrice': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1776869444455}
+2026-04-22 20:23:41,870 - INFO - Placing order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '78000', 'timeInForce': 'GTC'}
+2026-04-22 20:23:42,385 - INFO - Order placed successfully | ID: 13061780450 | Status: NEW | Symbol: BTCUSDT
